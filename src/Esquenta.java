@@ -1,38 +1,39 @@
-import java.util.Scanner;
 
 public class Esquenta {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        imprimirTiposPrimitivos();
+    }
 
+    public static void imprimirTiposPrimitivos() {
         //Inteiros
         byte b = 121;
         System.out.println("byte: "+ b);
 
         short s = - 30000;
-        System.out.println("Short: " + s);
+        System.out.println("short: " + s);
 
         int i = 7;
-        System.out.println("Int: "+ i);
+        System.out.println("int: "+ i);
 
 
         long l = 500000000;
-        System.out.println("Long: " + l);
+        System.out.println("long: " + l);
 
         //Pontos Flutuantes
         float f = 400;
-        System.out.println("Float: " + f);
+        System.out.println("float: " + f);
 
         double d = 2.99;
-        System.out.println("Double: " + d);
+        System.out.println("double: " + d);
 
 
         //Caractere
         char c = 'y';
-        System.out.println("Char: " + c);
+        System.out.println("char: " + c);
 
         //Lógico
         boolean bo = true;
-        System.out.println("Boolean: " + bo);
+        System.out.println("boolean: " + bo);
     }
 }
